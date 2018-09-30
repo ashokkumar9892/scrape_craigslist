@@ -10,8 +10,8 @@ class CraigslistSpider(scrapy.Spider):
     start_urls = ["{}/search/{}/{}".format(absolute_next_url, region, category)]
     allowed_domains = ["craigslist.org"]
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+    # def __init__(self, *args, **kwargs):
+    #     super().__init__(self, *args, **kwargs)
 
 
 class TitlesSpider(CraigslistSpider):
