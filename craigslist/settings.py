@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'craigslist.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/41.2'
 
 # Order CSV Columns
 #FEED_EXPORT_FIELDS = ['Title','URL', 'Address', 'Compensation', 'Employment Type','Description']
